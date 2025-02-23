@@ -192,6 +192,8 @@ Here are some code snippets from the project to help you get started quickly.
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+    presets: [require("nativewind/preset")],
+
     theme: {
         extend: {
             fontFamily: {
